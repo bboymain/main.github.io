@@ -311,3 +311,46 @@ body{
     overflow: hidden;
     z-index: 1;
 }
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.video {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: -100;
+ width: 100%    !important;
+  height: auto   !important;
+	   overflow: hidden;   
+}
+
+html, body, .wrapper {
+    height: 100%;
+    width: 100%;
+}
+
+.rightcolumn {
+
+}
+
+
+#introimg {
+color:#FFFFFF;
+ padding-top: 150px;
+    text-align: center;
+
+}
+
+
+
+.leftcolumn {
+   margin-left:auto;
+margin-right:auto;
+    width: 100%;
+   background: rgba(0, 0, 0, .6);
+    height: 100%;
+}
